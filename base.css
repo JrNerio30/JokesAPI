@@ -42,6 +42,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 
 .hero > .main{
@@ -92,4 +93,22 @@ body{
 .main > #another-joke:active{
   background-color: var(--color-btn);
   color: var(--color-font-bright);
+}
+
+.main > .puns-btn{
+  background-color: transparent;
+  border-radius: .3125rem;
+  border: var(--color-btn) solid .0625rem;
+  padding: 0.7rem 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 5rem;
+  margin: 1rem;
+  cursor: pointer;
+  transition: all 300ms;
+}
+
+.puns-btn > .puns-link{
+  color: var(--color-font-dark);
+  text-decoration: none;
 }
