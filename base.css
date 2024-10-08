@@ -48,25 +48,25 @@ body{
   margin-inline: 1rem;
   border: var(--color-font-dark) solid .2125rem;
   border-radius: 1.25rem;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 .main > .title{
   margin: 1rem 1rem 2rem 1rem;
-  font-size: 3rem;
+  font-size: clamp(2rem, 3vw, 3.5vw);
   color: var(--color-font);
 }
 
 .main > #setup{
   color: var(--color-font-dark);
-  font-size: 2rem;
+  font-size: clamp(1.5rem, 2vw, 2.5vw);
   max-width: 40ch;
   margin: 1rem;
 }
 
 .main > #delivery{
   color: var(--color-font-dark);
-  font-size: 1.5rem;
+  font-size: clamp(1rem, 1.5vw, 2vw);
   margin: 1rem;
 }
 
