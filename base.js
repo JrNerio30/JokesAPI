@@ -6,7 +6,7 @@
 
 function getJoke(){
   // fetch a joke from the API URL
-  fetch("https://v2.jokeapi.dev/joke/Any")
+  fetch("https://v2.jokeapi.dev/joke/Dark")
   // it then converts the response to JSON 
   .then(response => response.json())
   .then(data => {
